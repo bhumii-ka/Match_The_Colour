@@ -1,0 +1,46 @@
+#container{
+    max-width: 75%;
+    height: 100vh;
+    margin: 10px auto;
+    
+}
+
+/*div{
+    border: solid 2px black;
+}*/
+
+#random-colour{
+    text-align: center;
+    width: 65%;
+    height: 50vh;
+    margin: auto;
+}
+#canvas{
+    display: flex;
+    width: 65%;
+    height: 45vh;
+    margin: auto;
+    justify-content: space-around;
+    align-items: last baseline;
+
+}
+#black{
+    background-color: rgb(0,0,0);
+}
+#red{
+    background-color: rgb(255, 0, 0);
+}
+#blue{
+    background-color: rgb(0,0, 255);
+}
+#green{
+    background-color: rgb(0,255, 0);
+}
+#white {
+    background-color: rgb(255,255,255);
+    border:solid 1px rgb(125, 122, 122);
+}
+.colour,.feature{
+    width: 50px;
+    height: 50px;
+}

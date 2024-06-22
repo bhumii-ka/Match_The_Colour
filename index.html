@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="random-colour">
+            Match this colour
+        </div>
+        <div id="canvas" onmouseout="color()" onmouseout="color()" onclick="color()" ontouchmove="color()" ontouchstart="color()" onmouseover=solution()>
+            <div class="colour" id="black" onmouseout="noBlack()" onclick="noBlack()" ontouchmove="noBlack()" ontouchstart="noBlack()"></div>
+            <div class="colour" id="red" onmouseout="noR()"  onclick="noR()" ontouchmove="noR()" ontouchstart="noR()"></div>
+            <div class="colour" id="blue" onmouseout="noB()" onclick="noB()" ontouchmove="noB()" ontouchstart="noB()"></div>
+            <div class="colour" id="green" onmouseout="noG()" onclick="noG()" ontouchmove="noG()" ontouchstart="noG()"></div>
+            <div class="colour" id="white" onmouseout="noW()" onclick="noW()" ontouchmove="noW()" ontouchstart="noW()"></div>
+            <div class="feature" onclick="allClear()">Clear All</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
